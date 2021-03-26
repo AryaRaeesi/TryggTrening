@@ -19,12 +19,12 @@
 /*------------------------------------------------------*/
 
 .logotext a {
-    padding-left: 30px;
+    margin-left: 4vh;
     text-decoration: none;
     font-size: 28px;
     color: black;
     display: block;
-    padding-top: 20px;
+    padding-top: 3vh;
 }
 .logotext a:hover {
     color: #D90011;
@@ -88,20 +88,22 @@
 /*------------------------------------------------------*/
 
 .nav1 {
-    padding-right: 40px;
-    display: block;
+    display: flex;
+    flex-direction: row;
     right: 0;
     position: absolute;
     cursor:initial;
-    padding-top: 20px;
+    padding-top: 3vh;
+    width: 50%;
+    text-align: right;
+    margin-right: 4vw;
+    justify-content: space-between;
 }
 
 .nav1 a {
     text-decoration: none;
     color: black;
     transition: 0.25s;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .nav1 a:hover {
@@ -182,25 +184,30 @@ footer a:hover {
     #hamburger {display: none;}
     .nav1 a {font-size: 20px;}
     .logotext a {font-size: 24px;}
+    .nedre_footer a {font-size: 24px;}
 }
 
 @media (min-width: 1024px) {
     footer a {font-size: 24px;}
     .nav1 a {font-size: 24px;}
     .logotext a {font-size: 28px;}
+    .nedre_footer a {font-size: 28px;}
 }
 
 @media (min-width: 1440px) { 
     footer a {font-size: 28px;}
     .nav1 a {font-size: 28px;}
     .logotext a {font-size: 32px;}
-}
-/*------------------------------------------------------*/
-/*------------------------------------------------------*/
-/*------------------------------------------------------*/
-
-iframe {
-    width: 50px;
-    height: 100px;
+    .nedre_footer a {font-size: 32px;}
 }
 
+@media (min-width: 2560px) {
+    footer a {font-size: 50px;}
+    .nav1 a {font-size: 50px;}
+    .logotext a {font-size: 60px;}
+    .nedre_footer a {font-size: 60px;}
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/

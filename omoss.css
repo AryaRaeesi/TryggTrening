@@ -10,5 +10,91 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+.info {
+    text-align: center;
+    color: white;
+    background-image: url(/Bilder/Surfing.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+.info h1 {
+    padding-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.info p {
+    padding-bottom: 2vh;
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+@media (min-width: 320px) {
+    h1 {font-size: 34px;}
+    p {font-size: 16px;}
+    .info {height: 60vh;}
+}
+
+@media (min-width: 420px) {
+    h1 {font-size: 40px;}
+    p {font-size: 22px;}
+    .info {height: 75vh;}
+}
+
+@media (min-width: 768px) {
+    h1 {font-size: 50px;}
+    p {font-size: 28px;}
+    .info {height: 70vh;}
+}
+
+@media (min-width: 1024px) {
+    h1 {font-size: 74px;}
+    p {font-size: 36px;}
+    .info {height: 90vh;}
+}
+
+@media (min-width: 1440px) {
+    h1 {font-size: 80px;}
+    p {font-size: 42px;}
+    .info {height: 80vh;}
+}
+
+@media (min-width: 2560px) {
+    h1 {font-size: 130px;}
+    p {font-size: 72px;}
+    .info {height: 85vh;}
+}
+
+/*------------------------------------------------------*/
+
+/*@media (min-height: 320px) {
+    .info {height: 65vh;}
+}
+
+@media (min-height: 375px) {
+    .info {height: 55vh;}
+}
+
+@media (min-height: 425px) {
+    .info {height: 50vh;}
+}
+
+@media (min-height: 768px) {
+    /*.info {height: 50vh;}
+    h1 {font-size: 40px;}
+    p {font-size: 24px;}
+}*/
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
