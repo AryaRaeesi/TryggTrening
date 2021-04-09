@@ -12,3 +12,102 @@ body {
     padding: 0;
     background-color: rgba(0, 0, 0, 0.1)
 }
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+/* Innhold */
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "styrketrening"
+    "joggetur"
+    ;
+}
+
+h1 {
+    font-size: 48px;
+    padding-top: 2vh;
+}
+
+.boks-styrketrening, .boks-joggetur {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.boks-styrketrening {
+    display: flex;
+    background-image: url(/Bilder/trening1.jpg);
+    grid-area: styrketrening;
+    justify-content: center;
+    align-items: center;
+}
+
+.boks-joggetur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: joggetur;
+    background-image: url(/Bilder/jogging.jpg);
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+button {
+    color: white;
+    transition: 0.25s;
+    padding: 3vh 2vh 3vh 2vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #D90011;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+@media (min-width: 320px) {
+    p {font-size: 20px;}
+    button {font-size: 24px;}
+    .grid {grid-template-rows: 50vh 50vh;}
+    h1 {font-size: 24px;}
+}
+
+@media (min-width: 768px) {
+    p {font-size: 24px;}
+    button {font-size: 48px;}
+    .grid {grid-template-rows: 70vh 70vh;}
+    h1 {font-size: 48px;}
+}
+
+@media (min-width: 1024px) {
+    p {font-size: 28px;}
+    button {font-size: 64px;}  
+    .grid {grid-template-rows: 80vh 80vh;}
+    h1 {font-size: 64px;}
+}
+
+@media (min-width: 2560px) {
+    p {font-size: 56px;}
+    button {font-size: 104px;}
+    h1 {font-size: 104px;}
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
