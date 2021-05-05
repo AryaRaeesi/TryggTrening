@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-area: informasjon;
-    background-image: url(/Bilder/Trening-bygning.jpg);
+    background-image: url(./Bilder/Trening-bygning.jpg);
 }
 
 /*------------------------------------------------------*/
@@ -56,9 +56,10 @@ body {
     padding-left: 2vh;
     padding-top: 4vh;
     grid-area: ukens_treningsgruppe;
-    background-image: url(/Bilder/løping1.jpg);
+    background-image: url(./Bilder/løping1.jpg);
 }
 
+/*
 .boks1_trening {
     align-items: top;
 }
@@ -66,7 +67,7 @@ body {
 .boks2_trening {
     align-items: bottom;
     padding-bottom: 4vh;
-}
+}*/
 
 /*------------------------------------------------------*/
 /*------------------------------------------------------*/
@@ -79,7 +80,7 @@ body {
     padding-left: 2vh;
     padding-top: 4vh;
     grid-area: se_nettbutikk;
-    background-image: url(/Bilder/Sykling.jpg);
+    background-image: url(./Bilder/Sykling.jpg);
 }
 
 .boks1_nettbutikk {

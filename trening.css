@@ -41,7 +41,7 @@ h1 {
 
 .boks-styrketrening {
     display: flex;
-    background-image: url(/Bilder/trening1.jpg);
+    background-image: url(Bilder/trening1.jpg);
     grid-area: styrketrening;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ h1 {
     align-items: center;
     justify-content: center;
     grid-area: joggetur;
-    background-image: url(/Bilder/jogging.jpg);
+    background-image: url(Bilder/jogging.jpg);
 }
 
 /*------------------------------------------------------*/
